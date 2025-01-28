@@ -1,0 +1,45 @@
+title{
+    border-radius: 5%;
+}
+body{
+    background: rgb(83, 14, 129);
+    font: normal 15pt Arial;
+}
+header{
+    color: rgba(255, 255, 255, 0.911);
+    background: rgb(#6708e4, green, blue);
+    text-align: center;
+    text-shadow: 7px 2px 8px black;
+#volei_logo{
+    border-radius: 50%;
+    margin: auto;
+    align-items: center;
+    box-shadow: 1px 1x 4px black;
+}
+}
+section{
+    background: rgba(222, 245, 18, 0.911);
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.377);
+
+}
+footer{
+    text-align: center;
+    font-style: italic;
+    width: 500px;  
+    text-align: center;
+    margin: auto;
+    text-shadow: 10px 10px 10px black;
+    image-rendering: auto;
+    image-orientation: flip;
+#insta_logo{
+    width: 5%;
+    height: 25px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+}

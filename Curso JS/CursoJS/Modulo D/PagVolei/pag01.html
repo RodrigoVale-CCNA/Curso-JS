@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo do execício</title>
+    <link id="volei_logo" rel="icon" type="image/x-icon" href="Img/logo_volei.enc">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1><strong>Vôlei Aleatório</strong><img id="volei_logo" src="Img/logo_volei.enc" alt="" width="120px" height="120px"></h1> 
+
+    </header>
+    <section>
+        <div>
+            <p> Nome:
+                <input type="text" name="txtnome" id="txtnome">
+            </p>
+            <p>Qual seu endereço:
+                <input type="text" name="txtaddress" id="txtaddress">
+            </p>
+            <p>Ano de nascimento:
+                <input type="number" name="txtano" id="txtano" min="0">
+            </p>
+            <p>Sexo:
+                <input type="radio" name="radsex" id="mas"checked>
+                <label for="mas">Masculino</label>
+                <input type="radio" name="radsex" id="fem">
+                <label for="fem">Feminino</label>
+            </p>
+            <p>Posição
+                <input type="radio" name="radpos" id="lev"checked>
+                <label for="lev">Levantador</label>
+                <input type="radio" name="radpos" id="pont">
+                <label for="pont">Ponteiro</label>
+                <input type="radio" name="radpos" id="lib">
+                <label for="lib">Líbero</label>
+            </p>
+            <p>Método de pagamento:<br>
+                <input type="radio" name="radpag" id="radpix"checked>
+                <label for="radpix">PIX</label><br>
+                <input type="radio" name="radpag" id="radCredCard">
+                <label for="radCredCard">Cartão de crédito</label><br>
+                <input type="radio" name="radpag" id="radDebCard">
+                <label for="radDebCard">Cartão de Débito</label><br>
+                <input type="radio" name="radpag" id="radMoney">
+                <label for="radMoney">Espécie</label>
+            </p>
+            <p>
+                <input type="button" value="Verificar" onclick="verificar()">
+            </p>
+        </div>
+        <div id="res">
+            Preencha os dados acima para ver o resultado!
+        
+        </div>
+        <h2>Usando Link Internos</h2>
+        
+        <p>Está é a primeira página do site. Se você quiser, pode acessar também a minha <a href="pag02.html" target="_self" rel="next" style="color: #2011f0;;">segunda página</a></p>
+
+        <p>Você também pode acessar a nossa <a href="noticias/pag03.html" target="_self" rel="next">página de notícias</a></p>
+    </section>
+    <footer>
+        <p> <a href="https://www.instagram.com/voleialeatoriothe/" target="_blank" rel="external" style="color: rgb(255, 255, 255);">  <strong>&#64;voleialeatoriothe</strong><img id=insta_logo src="Img/logo_ig.jpeg" alt="Instagram"></a> </p>
+        
+    </footer>
+   <script src="scriptVolei.js"></script>
+</body>
+</html>
