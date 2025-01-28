@@ -1,3 +1,37 @@
+*{margin: 0;padding: 0;}
+
+.menu{
+    list-style: none;
+    border: 1px solid #c0c0c0;
+    float: left;
+    background-color: #CCC;
+}
+.menu li{
+    position: relative;
+    float: left; 
+    border-right: 1px solid #c0c0c0;
+}
+.menu a{color: #333; text-decoration: none;padding: 5px 10px;display: block;}
+.menu li a:hover{
+    background-color: #7a077e;
+    color: #ffffff;
+    -moz-box-shadow: 0 3px 10px 0 #CCC;
+    -webkit-box-shadow:0 3px 10px 0 #ccc;
+    text-shadow: 0px 0px 5px #ffffff;
+}
+.menu li ul{
+    position: absolute;
+    top: 25px;
+    left: 0;
+    background-color: rgba(253, 255, 245, 0.678);
+    display: none;
+}
+.menu li:hover ul, menu li.over ul{display: block;}
+.menu li ul li{
+    border: 1px solid #c0c0c0;
+    display: block;
+    width: 150px;
+}
 title{
     border-radius: 5%;
 }
@@ -18,7 +52,7 @@ header{
 }
 }
 section{
-    background: rgba(222, 245, 18, 0.911);
+    background: rgba(222, 245, 18, 0.63);
     border-radius: 10px;
     padding: 15px;
     width: 500px;
@@ -35,11 +69,11 @@ footer{
     text-shadow: 10px 10px 10px black;
     image-rendering: auto;
     image-orientation: flip;
-#insta_logo{
-    width: 5%;
-    height: 25px;
-    border-radius: 50%;
-    margin: auto;
+    #insta_logo{
+        width: 5%;
+        height: 25px;
+        border-radius: 50%;
+        margin: auto;
 }
 
 }
